@@ -1,0 +1,1 @@
+DELETE from employees e WHERE ( SELECT count( c.customerNumber ) FROM customers c WHERE c.salesRepEmployeeNumber = e.employeeNumber ) = 0 AND e.jobTitle = "Sales Rep";
