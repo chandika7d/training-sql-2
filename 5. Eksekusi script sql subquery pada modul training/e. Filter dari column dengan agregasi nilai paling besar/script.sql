@@ -1,0 +1,1 @@
+select * from products p where (select max(ps.buyPrice) from products ps) = p.buyPrice;
