@@ -1,0 +1,3 @@
+START TRANSACTION;
+INSERT INTO `employees` ( `employeeNumber`, `lastName`, `firstName`, `extension`, `email`, `officeCode`, `reportsTo`, `jobTitle` ) VALUES ( 1703, 'Nurdiansyah', 'Chandika', 'x102', 'chandika@classicmodelcars.com', '6', 1088, 'Sales Rep' ), ( 1704, 'Hermawan', 'Agung', 'x103', 'agung@classicmodelcars.com', '6', 1088, 'Sales Rep' ), ( 1705, 'Fitriyani', 'Hana', 'x101', 'hana@classicmodelcars.com', '5', 1056, 'Sales Rep' ), ( 1706, 'Nuraini', 'Revina', 'x102', 'revina@classicmodelcars.com', '5', 1621, 'Sales Rep' ), ( 1707, 'Rafi', 'Sultan', 'x2312', 'sultan@classicmodelcars.com', '4', 1102, 'Sales Rep' );
+COMMIT;
